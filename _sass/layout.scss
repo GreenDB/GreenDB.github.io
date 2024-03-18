@@ -137,6 +137,22 @@ blockquote:before {
 	}
 }
 
+.banner-image {
+  flex: 0 0 auto; /* Ensures the image size doesn't grow */
+  width: calc(25% - 50px); /* Adjust width based on the number of images per row */
+  margin: 25px; /* Adjust margin between images */
+  overflow: hidden;
+  position: relative;
+  border-radius: 10px; /* Adjust border radius if needed */
+  box-sizing: border-box; /* Include padding and border in width calculation */
+
+  img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+}
+
 .page {
 	margin-bottom: 0;
 	padding-bottom: 80px;
