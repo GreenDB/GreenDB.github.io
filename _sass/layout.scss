@@ -146,7 +146,7 @@ blockquote:before {
 
 .banner-image {
   flex: 0 0 auto; /* Ensures the image size doesn't grow */
-  width: calc(15% - 50px); /* Adjust width based on the number of images per row */
+  width: calc(15% - 25px); /* Adjust width based on the number of images per row */
   margin: 25px; /* Adjust margin between images */
   overflow: hidden;
   position: relative;
