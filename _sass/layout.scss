@@ -159,6 +159,13 @@ blockquote:before {
     margin: auto;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .banner-image {
+    flex-basis: 100%;
+  }
+}
+
 .page {
 	margin-bottom: 0;
 	padding-bottom: 80px;
