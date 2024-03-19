@@ -1,7 +1,8 @@
 ---
 name:
+picture:
 position:
+expertise:
 image_path:
-twitter:
 blurb:
 ---

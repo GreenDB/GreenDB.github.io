@@ -1,7 +1,7 @@
 ---
 name: Prof. Dr. Felix Bießmann
+picture: "/images/profile_pictures/felix_profile.png"
 position: Mentor
-image_path: https://source.unsplash.com/collection/139386/603x603?a=.png
-twitter: CloudCannonApp
-blurb: Gerald loves going to bike rides and spending time with his family.
+image_path: https://www.digital-future.berlin/ueber-uns/professorinnen/prof-dr-felix-biessmann/
+blurb: Anna likes long walks on the beach and buffet breakfast.
 ---

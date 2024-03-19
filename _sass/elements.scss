@@ -7,12 +7,19 @@ html, body {
 	padding: 0;
 }
 
+@font-face {
+  font-family: "Mandali-Regular";
+  src: url("../Mandali-Regular.ttf") format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
-	font-family: "San Francisco", "Helvetica Neue", "Helvetica", "Arial";
+	font-family: "Mandali-Regular",  sans-serif;
 }
 
 a {
-	color: #c6e3c5;
+	color: #163917;
 	text-decoration: none;
 }
 

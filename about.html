@@ -1,16 +1,47 @@
 ---
 title: Interdisciplinary Talent
-description: >-
-  A team with expertise on Data Science, Machine Learning, Retail and Sales, Sustainability and Consumer Research.
+description: A team with expertise on Data Science, Machine Learning, Retail and Sales, Sustainability and Consumer Research
 ---
 
 <p class="editor-link" style="text-align: center;"><a href="cloudcannon:collections/_staff_members/" class="btn"><strong>&#9998;</strong> Manage Staff members</a></p>
-<ul class="staff">
-	{% for person in site.staff_members %}
-		<li>
-			<div class="square-image"><img src="{% include relative-src.html src=person.image_path %}" alt="{{ person.name }}"/></div>
-			<div class="name"><a target="_blank" href="https://twitter.com/{{ person.twitter }}">{{ person.name }}</a></div>
-			<div class="position">{{ person.position }}</div>
-		</li>
-	{% endfor %}
-</ul>
+		<ul class="staff">
+			{% for person in site.staff_members %}
+				<li>
+					<div class="profile-image"><img src="{{ person.picture }}" alt="{{ person.name }}"/></div>
+					<div class="name"><a target="_blank" href="https://twitter.com/{{ person.twitter }}">{{ person.name }}</a></div>
+					<div class="position">{{ person.position }}</div>
+					<div class="expertise">{{ person.expertise }}</div>
+				</li>
+			{% endfor %}
+		</ul>
+
+
+<div class="content">
+	<div class="container flex">
+			<div class="text editable">
+				<h2><strong>Publications</strong></h2>
+				<ul>
+					<li>Jäger, S., Greene, J., Jakob, M., Korenke, R., Santarius, T., and Bießmann, F. (2022). GreenDB: Toward a Product-by-Product Sustainability Database. <a href="https://arxiv.org/abs/2205.02908" > ArXiv, abs/2205.02908.</a></li>
+					<li>Jäger, S., Flick, A., Sanchez Garcia, J. A., von den Driesch, K., Brendel, K., and Bießmann, F. (2022). GreenDB: A Dataset and Benchmark for Extraction of Sustainability Information of Consumer Goods. <a href="https://arxiv.org/abs/2207.10733" >, ArXiv, abs/2207.10733.</a></li>
+				</ul>
+			</div>
+	</section>
+
+	<section>
+		<div class="container flex">
+			<div class="text editable">
+				<h2><strong>Our Funding Partners</strong></h2>
+				<div class="banner-image-container">
+					<div class="banner-image"><img src="{{ site.baseurl }}/images/sen_web_vertikal_rgb.jpg" alt="Senatverwaltung" class="editable"></div>
+					<div class="banner-image"><img src="{{ site.baseurl }}/images/BHT_logo_Startup_Hub Horizontal.png" alt="BHT Startup Hub" class="editable"></div>
+					<div class="banner-image"><img src="{{ site.baseurl }}/images/BSS.png" alt="BSS" class="editable"></div>
+					<div class="banner-image"><img src="{{ site.baseurl }}/images/eu-sozialfonds.jpg" alt="EU SocialFonds" class="editable"></div>
+					<div class="banner-image"><img src="{{ site.baseurl }}/images/IBB.png" alt="IBB" class="editable"></div>
+					<div class="banner-image"><img src="{{ site.baseurl }}/images/esf-berlin_final.jpg" alt="ESF Berlin" class="editable"></div>
+
+				</div>
+			</div>
+		</div>
+	</section>
+</div>
+
