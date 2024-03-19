@@ -1,16 +1,16 @@
 - links:
-  - name: Pricing
-    link: /pricing/
   - name: About
     link: /about/
   - name: Contact
     link: /contact/
+  - name: Pricing
+    link: /pricing/
 - links:
   - name: Docs
-    link: /
+    link: https://github.com/GreenDB
     new_window: true
 - links:
   - name: LinkedIn
-    link: https://facebook.com/cloudcannon/
+    link:
     new_window: true
     social_icon: LinkedIn
