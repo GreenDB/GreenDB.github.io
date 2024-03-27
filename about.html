@@ -3,64 +3,46 @@ title: Interdisciplinary Talent
 description: A team with expertise on Data Science, Machine Learning, Retail and Sales, Sustainability and Consumer Research
 ---
 
+<section>
 <p class="editor-link" style="text-align: center;"><a href="cloudcannon:collections/_staff_members/" class="btn"><strong>&#9998;</strong> Manage Staff members</a></p>
-		<ul class="staff">
-			{% for person in site.staff_members %}
-				<li>
-					<div class="profile-image"><img src="{{ person.picture }}" alt="{{ person.name }}"/></div>
-					<div class="name"><a target="_blank" href="https://twitter.com/{{ person.twitter }}">{{ person.name }}</a></div>
-					<div class="position">{{ person.position }}</div>
-					<div class="expertise">{{ person.expertise }}</div>
-				</li>
-			{% endfor %}
-		</ul>
+	<ul class="staff">
+		{% for person in site.staff_members %}
+			<li>
+				<div class="profile-image"><img src="{{ person.picture }}" alt="{{ person.name }}"/></div>
+				<div class="name"><a target="_blank" href="https://twitter.com/{{ person.twitter }}">{{ person.name }}</a></div>
+				<div class="position">{{ person.position }}</div>
+				<div class="expertise">{{ person.expertise }}</div>
+			</li>
+		{% endfor %}
+	</ul>
+</section>
 
-
-<div class="content">
-	<section>
-	<div class="container flex">
-			<div class="text editable">
-				<h2><strong>About us </strong></h2>
-			<p>The production, shipping, usage, and disposal of consumer goods have a substantial impact on greenhouse
-				gas emissions and the depletion of resources. Machine Learning (ML) can help to foster sustainable
-				consumption patterns by accounting for sustainability aspects in product search or recommendations of
-				modern retail platforms. However, the lack of large high quality publicly available product data with
-				trustworthy sustainability information impedes the development of ML technology that can help to reach
-				our sustainability goals.</p>
-			<p>Here we present GreenDB, a database that collects products from European online shops on a weekly basis.
-				As proxy for the products’ sustainability, it relies on sustainability labels, which are evaluated by experts.
-				The GreenDB schema extends the well-known schema.org product definition and can be readily integrated
-				into existing product catalogs. .</p>
+<section class="banner">
+<div class="container flex">
+		<div>
+			<h2><strong>Publications</strong></h2>
+			<ul>
+				<li>Jäger, S., Greene, J., Jakob, M., Korenke, R., Santarius, T., and Bießmann, F. (2022). GreenDB: Toward a Product-by-Product Sustainability Database. <a href="https://arxiv.org/abs/2205.02908" > ArXiv, abs/2205.02908.</a></li>
+				<li>Jäger, S., Flick, A., Sanchez Garcia, J. A., von den Driesch, K., Brendel, K., and Bießmann, F. (2022). GreenDB: A Dataset and Benchmark for Extraction of Sustainability Information of Consumer Goods. <a href="https://arxiv.org/abs/2207.10733" >, ArXiv, abs/2207.10733.</a></li>
+			</ul>
 		</div>
 	</div>
-	</section>
+</section>
 
-	<section class="hero">
+<section>
 	<div class="container flex">
-			<div class="bottom-cta">
-				<h2><strong>Publications</strong></h2>
-				<ul>
-					<li>Jäger, S., Greene, J., Jakob, M., Korenke, R., Santarius, T., and Bießmann, F. (2022). GreenDB: Toward a Product-by-Product Sustainability Database. <a href="https://arxiv.org/abs/2205.02908" > ArXiv, abs/2205.02908.</a></li>
-					<li>Jäger, S., Flick, A., Sanchez Garcia, J. A., von den Driesch, K., Brendel, K., and Bießmann, F. (2022). GreenDB: A Dataset and Benchmark for Extraction of Sustainability Information of Consumer Goods. <a href="https://arxiv.org/abs/2207.10733" >, ArXiv, abs/2207.10733.</a></li>
-				</ul>
-			</div>
-		</div>
-	</section>
+		<div class="text editable">
+			<h2>Funding Partners</h2>
+			<div class="banner-image-container">
+				<div class="banner-image"><img src="{{ site.baseurl }}/images/sen_web_vertikal_rgb.jpg" alt="Senatverwaltung" class="editable"></div>
+				<div class="banner-image"><img src="{{ site.baseurl }}/images/BHT_logo_Startup_Hub Horizontal.png" alt="BHT Startup Hub" class="editable"></div>
+				<div class="banner-image"><img src="{{ site.baseurl }}/images/BSS.png" alt="BSS" class="editable"></div>
+				<div class="banner-image"><img src="{{ site.baseurl }}/images/eu-sozialfonds.jpg" alt="EU SocialFonds" class="editable"></div>
+				<div class="banner-image"><img src="{{ site.baseurl }}/images/IBB.png" alt="IBB" class="editable"></div>
+				<div class="banner-image"><img src="{{ site.baseurl }}/images/esf-berlin_final.jpg" alt="ESF Berlin" class="editable"></div>
 
-	<section>
-		<div class="container flex">
-			<div class="text editable">
-				<h3><strong>Our Funding Partners</strong></h3>
-				<div class="banner-image-container">
-					<div class="banner-image"><img src="{{ site.baseurl }}/images/sen_web_vertikal_rgb.jpg" alt="Senatverwaltung" class="editable"></div>
-					<div class="banner-image"><img src="{{ site.baseurl }}/images/BHT_logo_Startup_Hub Horizontal.png" alt="BHT Startup Hub" class="editable"></div>
-					<div class="banner-image"><img src="{{ site.baseurl }}/images/BSS.png" alt="BSS" class="editable"></div>
-					<div class="banner-image"><img src="{{ site.baseurl }}/images/eu-sozialfonds.jpg" alt="EU SocialFonds" class="editable"></div>
-					<div class="banner-image"><img src="{{ site.baseurl }}/images/IBB.png" alt="IBB" class="editable"></div>
-					<div class="banner-image"><img src="{{ site.baseurl }}/images/esf-berlin_final.jpg" alt="ESF Berlin" class="editable"></div>
-				</div>
 			</div>
 		</div>
-	</section>
-</div>
+	</div>
+</section>
 
