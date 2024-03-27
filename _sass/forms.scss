@@ -15,15 +15,19 @@
 }
 
 .button.alt a {
-	background: rgba(255,255,255,0.15);
+	background: #163917;
 	border-radius: 3px;
-	border: 1px solid rgba(255, 255, 255, 0.3);
-	padding: 16px 50px;
+	border: #163917;
+	padding: 25px 30px;
+	border-radius: 45px;
+	font-family: "Montserrat-Bold", sans-serif;
+	margin: 20px 30px;
 }
 
 .button.alt a:hover {
 	background: #fff;
 	color: $brand-color;
+
 }
 
 textarea, input, button, select { font-family: inherit; font-size: inherit; }
