@@ -27,9 +27,10 @@
 @media #{$tablet} {
     .button.alt a {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         padding: 13px 15px;
-        margin: 10px 15px;
+        margin: 20px 80px;
+        align-items: center;
     }
    }
 
