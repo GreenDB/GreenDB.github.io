@@ -1,9 +1,19 @@
 .bottom-cta {
-	background: linear-gradient(to bottom, $brand-color 0%, $middle-gradient-color 100%);
+	background: linear-gradient(to bottom, $brand-color 0%, $middle-gradient-color 100%) ;
 	color: #fff;
 	text-align: center;
-	margin: 10px;
-	padding: 100px 0;
+	padding: 50px 0;
+
+	h1{
+	    font-size:2.0em;
+	    line-height: 1.5;
+	    margin-bottom: 30px;
+
+	}
+}
+
+.bottom-banner {
+	padding: 50px 0;
 
 	h1{
 	    font-size:2.0em;
@@ -48,6 +58,16 @@
     justify-content: center;
     align-items: center;
 
+    .article-block {
+    background-color: $extra-brand-color;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 20px;
+
+    display: flex;
+    flex-direction: column; /* Stack items vertically by default */
+    }
+
 	.article-image {
               width: 350px;
               height: 200px;
@@ -57,6 +77,7 @@
     a   {
         color: #163917;
         font-family: "Montserrat-Bold", sans-serif;
+        text-decoration: underline;
     }
 }
 
@@ -97,20 +118,29 @@
 		flex-direction: row-reverse;
 	}
 
-  .flex-top {
-		@include flexbox;
-		align-items: flex-start;
-		flex-direction: row;
+    .flex-top {
+        @include flexbox;
+        align-items: flex-start;
+        flex-direction: row;
 
-		.text, .image {
-			-webkit-flex: 1;
-			flex: 1;
-			padding: 0 20px;
-		}
+        .text, .image {
+            -webkit-flex: 1;
+            flex: 1;
+            padding: 0 20px;
+        }
 
         .icon {
               max-width: 20%;
               max-height: 20%;
         }
-  }
+    }
 }
+
+@media #{$tablet} {
+    .flex-top .icon {
+        max-width: 30%;
+        max-height: auto;
+    }
+}
+
+

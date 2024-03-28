@@ -167,7 +167,7 @@ blockquote:before {
   }
 }
 
-@media screen and (max-width: 480px) {
+@media #{$tablet} {
   .banner-image {
     flex-basis: 45%;
     margin: 15px 0;

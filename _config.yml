@@ -1,8 +1,8 @@
 # ----
 # Site
 
-title: Customized Hydra Template
-url: "https://proud-alligator.cloudvent.net"
+title: GreenDB
+url: "https://greendb.github.io/"
 baseurl:
 google_analytics_key:
 google_maps_javascript_api_key:
@@ -10,9 +10,9 @@ disqus_shortname:
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
 logo: /siteicon.png
-description: Product marketing template for Jekyll.
-author:
-  name: GreenDB
+description: Powering e-commerce with credible sustainability data
+author: GreenDB
+  name:
   email:
   twitter:
 social:

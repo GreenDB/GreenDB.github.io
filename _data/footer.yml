@@ -3,8 +3,6 @@
     link: /about/
   - name: Contact
     link: /contact/
-  - name: Pricing
-    link: /pricing/
 - links:
   - name: Docs
     link: https://github.com/GreenDB

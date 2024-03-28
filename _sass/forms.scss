@@ -22,13 +22,25 @@
 	border-radius: 45px;
 	font-family: "Montserrat-Bold", sans-serif;
 	margin: 20px 30px;
-}
+    }
+
+@media #{$tablet} {
+    .button.alt a {
+        display: flex;
+        flex-direction: row;
+        padding: 13px 15px;
+        margin: 10px 15px;
+    }
+   }
+
+
 
 .button.alt a:hover {
 	background: #fff;
 	color: $brand-color;
 
 }
+
 
 textarea, input, button, select { font-family: inherit; font-size: inherit; }
 
