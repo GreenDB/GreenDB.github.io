@@ -2,7 +2,7 @@
 # Site
 
 title: GreenDB
-url: "https://greendb.github.io/"
+url: "https://proud-alligator.cloudvent.net"
 baseurl:
 google_analytics_key:
 google_maps_javascript_api_key:
@@ -10,9 +10,9 @@ disqus_shortname:
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
 logo: /siteicon.png
-description: Powering e-commerce with credible sustainability data
-author: GreenDB
-  name:
+description: We analyse and asses sustainability product claims of products sold online by following scientific standards
+author:
+  name: GreenDB
   email:
   twitter:
 social:
