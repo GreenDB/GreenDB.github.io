@@ -22,12 +22,18 @@ header {
 	padding: 20px 0;
 	background: $brand-color; /* Old browsers */
 	background: linear-gradient(to bottom, $brand-color 0%, $middle-gradient-color 100%) no-repeat $brand-color;
+	align-items: center;
+	justify-content: center;
+
 
 	a {
 		color: #fff;
+		font-size: 1.5em;
 		text-decoration: none;
 		z-index: 1;
 		position: relative;
+		align-items: center;
+	    justify-content: center;
 
 		&:hover {
 			text-decoration: none;
@@ -40,6 +46,7 @@ header {
 
 		a {
 			display: inline-block;
+
 		}
 
 		img {
