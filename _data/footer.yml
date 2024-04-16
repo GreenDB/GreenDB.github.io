@@ -4,11 +4,7 @@
   - name: Contact
     link: /contact/
 - links:
-  - name: Docs
-    link: https://github.com/GreenDB
-    new_window: true
-- links:
   - name: LinkedIn
-    link:
+    link: https://www.linkedin.com/company/green-database/
     new_window: true
     social_icon: LinkedIn
